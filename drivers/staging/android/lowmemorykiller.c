@@ -83,9 +83,9 @@ static short lowmem_adj[6] = {
 static int lowmem_adj_size = 4;
 static int lowmem_minfree[6] = {
         3 * 53 ,	/* 6MB */
-	2 * 71 ,	/* 8MB */
-	4 * 89 ,	/* 16MB */
-	16 * 161,	/* 64MB */
+	2 * 60 ,	/* 8MB */
+	4 * 80 ,	/* 16MB */
+	16 * 151,	/* 64MB */
 };
 static int lowmem_minfree_size = 4;
 static int lmk_fast_run = 1;
